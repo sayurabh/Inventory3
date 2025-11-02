@@ -2,12 +2,14 @@
 
 #pragma once
 #include "CoreMinimal.h"
+
 #include "Net/Serialization/FastArraySerializer.h"
 #include "Inv_FastArray.generated.h"
 
+class UInv_InventoryComponent1;
 class UInv_ItemComponent;
 
-class UInv_InventoryComponent1;
+
 class UInv_InventoryItem;
 struct FGameplayTag;
 USTRUCT(BlueprintType)
